@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{static_url('css/bootstrap.min.css')}}">
+    <script src="{{static_url('js/vue-2.4.0.js')}}"></script>
+    <script src="{{static_url('js/vue-resource-1.3.4.js')}}"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <h1>hello world</h1>
+        </div>
+    </div>
+
+    <script>
+    var vm = new Vue({
+        el:"#app",
+        data: {},
+        method: {},
+        delimiters: ['{[', ']}'],
+    })
+    </script>
+
+
+    <script src="{{static_url('js/jquery.min.js')}}"></script>
+    <script src="{{static_url('js/popper.min.js')}}"></script>
+    <script src="{{static_url('js/bootstrap.min.js')}}"></script>
+</body>
+
+</html>
