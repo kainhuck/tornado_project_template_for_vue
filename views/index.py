@@ -9,7 +9,7 @@ import os
 # from models import ClassName
 
 # 定义自己的StaticFileHandler
-class StaticFileHandler(StaticFileHandler):
+class StaticFileHandler_(StaticFileHandler):
 	def __init__(self, *args, **kwargs):
 
 		super(StaticFileHandler, self).__init__(*args, **kwargs)
